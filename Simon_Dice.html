@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Simon Dice</title>
+    <link rel="stylesheet" href="simon.css"> 
+</head>  
+<body>
+    <! -- El id es para identificar los elementos en Javascrip-->
+    <! -- El class es el pre-selector para poder llamar las etiquetas desde css y añadirles estilos a los elementos html-->
+    
+    
+    <h1 class="main_title">!Simon Dice Jugemos!</h1>
+
+    <div class="container__puntuacion">  
+        <p class="jugador">Jugador : </p> 
+        <p id="Jugador" class="nombreJugador"></p>
+    </div>
+    <div class="container__nivel">  
+         <p class="nivel">Nivel : </p>
+         <p id="nivel" class="nivelJuego"> </p>
+</div>
+
+
+     
+    <div class="gameboard">      
+       
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+      </div>  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+      <script src="simonDice.js"></script>    
+      
+</body>  
+</html>     

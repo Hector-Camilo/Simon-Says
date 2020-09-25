@@ -1,0 +1,126 @@
+      body {
+        margin: 0;
+        background: #dedede;
+        display: flex;
+        align-items: center; 
+        flex-direction: column;
+        height: 130vh;
+        background-color: #ffbe76;
+      }
+
+      .main_title{  
+        color: white;
+      }
+      .container__puntuacion{
+        height: 200px;
+        width: auto;
+        border:black 2px solid; 
+        background-color:#8DDCE7;
+        border-radius: 30px;
+        flex-wrap:wrap 
+      }
+      .jugador{
+        display: inline-flex;
+        font-size:  2rem;
+        margin-left: 8px;
+        height: auto;
+        width: auto;
+      }
+      .nombreJugador{
+        font-size:  2rem;
+        display: inline;
+        margin-left: 3px;
+
+      }
+
+      .container__nivel{
+        margin-top: -100px;
+      }
+      .nivel{
+        display: inline-flex;
+        font-size:  2rem;
+        margin-left: 8px;
+        height: auto;
+        width: auto;
+      }
+      .nivelJuego{
+        display: inline;
+        font-size:  2rem;
+        display: inline;
+        margin-left: 3px;  
+      }
+      .gameboard {
+        height: 100vh;
+        width: 100vh; 
+        border-radius: 50%;
+        overflow: auto;
+        margin: 20px auto; 
+        max-height: 60vh;
+        max-width: 60vh;
+      }
+ 
+      .color { 
+        width: 50%;
+        height: 50%;
+        display: inline-block; 
+      }
+
+      .left {
+        float: left;
+      }
+
+      .right {
+        float: left;  
+      }
+
+      .celeste {
+        
+        background: #22a6b3;
+      }
+
+      .celeste.light {
+        background: #7ed6df;
+      }
+
+      .violeta {
+        background: #be2edd;
+      }
+
+      .violeta.light {
+        background: #e056fd;
+      }
+
+      .naranja {
+        background: #f0932b;
+      }
+
+      .naranja.light {
+        background: #ffbe76;
+      }
+
+      .verde {
+        background: #6ab04c;
+      }
+
+      .verde.light {
+        background: #badc58;
+      } 
+
+      .btn-start {
+        width: 400px;
+        height: 100px;
+        background: #ecf0f1;
+        color: #2c3e50;
+        font-size: 2.5rem;
+        position: absolute;
+        top: calc(68% - 50px);
+        left: calc(50% - 200px); 
+      }
+
+      .hide { 
+        display: none;
+      }
+      
+      *{
+        font-family: Arial;
+      }    
